@@ -293,7 +293,7 @@ class SvgUri extends Component{
           </View>
       );
     } catch(e){
-      console.error("ERROR SVG", e);
+      console.warn("ERROR SVG", e);
       return null;
     }
   }
